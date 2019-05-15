@@ -11,14 +11,14 @@ public class TobaccoStallTest {
 
     @Before
     public void before() {
-        tobaccoStall = new TobaccoStall("Golden Shower Virginia", "Bob", 76);
+        tobaccoStall = new TobaccoStall("Golden Virginia", "Bob", 76);
         visitor1 = new Visitor(30, 189, 100);
         visitor2 = new Visitor(11, 133, 10);
     }
 
     @Test
     public void hasName() {
-        assertEquals("Golden Shower Virginia", tobaccoStall.getName());
+        assertEquals("Golden Virginia", tobaccoStall.getName());
     }
 
     @Test

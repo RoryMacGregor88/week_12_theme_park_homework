@@ -11,14 +11,14 @@ public class RollerCoasterTest {
 
     @Before
     public void before() {
-        rollerCoaster = new RollerCoaster("Fanny Tingler");
+        rollerCoaster = new RollerCoaster("The Twister");
         visitor1 = new Visitor(30, 189, 100);
         visitor2 = new Visitor(11, 133, 10);
     }
 
     @Test
     public void hasName() {
-        assertEquals("Fanny Tingler", rollerCoaster.getName());
+        assertEquals("The Twister", rollerCoaster.getName());
     }
 
     @Test

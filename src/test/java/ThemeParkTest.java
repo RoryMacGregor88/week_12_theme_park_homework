@@ -19,14 +19,14 @@ public class ThemeParkTest {
     @Before
     public void before() {
 
-        rollerCoaster = new RollerCoaster("Fanny Tingler");
-        dodgems = new Dodgems("Boob Wobbler");
-        park = new Park("Ray Park");
-        playGround = new PlayGround("Wean Preoccupier");
+        rollerCoaster = new RollerCoaster("The Twister");
+        dodgems = new Dodgems("The Bumpies");
+        park = new Park("North Park");
+        playGround = new PlayGround("The Meadow");
 
-        iceCreamStall = new IceCreamStall("I Scream, You Scream", "Jimmy", 23);
-        tobaccoStall = new TobaccoStall("Golden Shower Virginia", "Bob", 78);
-        candyFlossStall = new CandyFlossStall("Candy Butt Floss", "Wendy", 54);
+        iceCreamStall = new IceCreamStall("Ice Cream, You Scream", "Jimmy", 23);
+        tobaccoStall = new TobaccoStall("Golden Virginia", "Bob", 78);
+        candyFlossStall = new CandyFlossStall("Candy Floss", "Wendy", 54);
 
         themePark = new ThemePark();
     }

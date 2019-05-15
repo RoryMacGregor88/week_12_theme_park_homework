@@ -11,14 +11,14 @@ public class PlayGroundTest {
 
     @Before
     public void before() {
-        playGround = new PlayGround("Wean Preoccupier");
+        playGround = new PlayGround("The Meadow");
         visitor1 = new Visitor(30, 189, 100);
         visitor2 = new Visitor(14, 133, 10);
     }
 
     @Test
     public void hasName() {
-        assertEquals("Wean Preoccupier", playGround.getName());
+        assertEquals("The Meadow", playGround.getName());
     }
 
     @Test

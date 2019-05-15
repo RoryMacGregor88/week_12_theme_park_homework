@@ -11,14 +11,14 @@ public class DodgemsTest {
 
     @Before
     public void before() {
-        dodgems = new Dodgems("Boob Wobbler");
+        dodgems = new Dodgems("The Bumpies");
         visitor1 = new Visitor(30, 189, 100);
         visitor2 = new Visitor(14, 133, 10);
     }
 
     @Test
     public void hasName() {
-        assertEquals("Boob Wobbler", dodgems.getName());
+        assertEquals("The Bumpies", dodgems.getName());
     }
 
     @Test
